@@ -88,7 +88,7 @@ public class Ejercicio16 {
 
         System.out.println("El elemento que mas se repite es " + masCantidad + " con " + max + " elementos");
 
-        // Verificacion System.out.println(maximo);
+        /* Verificacion System.out.println(maximo);*/
 
         driver.quit();
 
