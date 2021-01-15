@@ -34,7 +34,7 @@ public class TestngSalesforce {
     }
 
     @Test (priority = 4)
-    public void RememberMeIsSelectedTest() throws InterruptedException {
+    public void rememberMeIsSelectedTest() throws InterruptedException {
         driver.get(SALESFORCE_URL);
 
         Thread.sleep(3000);
@@ -49,7 +49,7 @@ public class TestngSalesforce {
     }
 
     @Test (priority = 2)/*(enabled = false)*/
-    public void FooterIsValidTest() throws InterruptedException {
+    public void footerIsValidTest() throws InterruptedException {
         driver.get(SALESFORCELOCAL_URL);
 
         Thread.sleep(3000);
@@ -63,7 +63,7 @@ public class TestngSalesforce {
     }
     /************************ Ejercicio GIT **********************/
     @Test(priority = 3)
-    public void LoginFailureTest() throws InterruptedException {
+    public void loginFailureTest() throws InterruptedException {
         //Uso una nueva URL porque cambia una parte con respecto a https://login.salesforce.com/
         driver.get(SALESFORCELOCAL_URL);
 
