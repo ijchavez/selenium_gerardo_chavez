@@ -32,12 +32,12 @@ public class FillFormWithFakersTest {
     public void clickStartMyFreeTrial() {
         driver.findElement(By.id("signup_link")).click();
         //Me aparece un boton de declaracion de aceptacion de privacidad
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        
         driver.findElement(By.id("onetrust-accept-btn-handler")).click();
 
         //hago el click en este metodo para que cuando busque el assert en el otro
         //ya el cartel exista y el assert lo encuentre.
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+      
         driver.findElement(By.name("Start my free trial")).click();
 
         //Creo un assert para no hacer un @Test sin utilidad
@@ -79,7 +79,7 @@ public class FillFormWithFakersTest {
         String textErrMessage = errMesage.getText();
         System.out.println(textErrMessage);
 
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        
         Assert.assertEquals(textErrMessage,"Please read and agree to the Master Subscription Agreement");
 
         /*No se usa ya que sale todo de la clase Faker
