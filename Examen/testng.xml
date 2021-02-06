@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+    <suite name = "Clase16. Runner TestNG Simulacro Examen Booking" verbose="1">
+        <parameter name="tag_name" value="h1"/>
+        <test name = "Examen">
+            <groups>
+                <run>
+                    <include name ="NetflixTest"/>
+
+                </run>
+            </groups>
+
+            <classes>
+                <class name = "Examen.Prueba_netflix">
+
+                </class>
+            </classes>
+        </test>
+    </suite>
