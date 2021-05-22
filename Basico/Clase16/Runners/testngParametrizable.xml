@@ -1,0 +1,15 @@
+<suite name = "Clase16 de tests parametrizables" verbose="1">
+    <parameter name="tag_name" value="h1"/>
+    <test name = "Ejercicio Testing">
+        <groups>
+            <run>
+                <include name = "salesforceTest" />
+
+            </run>
+        </groups>
+        <classes>
+            <class name = "Basico.Clase16.SalesforceTest"/>
+
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+    <suite name = "Clase16. Runner TestNG Simulacro Examen Booking" verbose="1">
+        <test name = "Ejercicio Testing">
+            <groups>
+                <run>
+                    <include name ="BookingTest"/>
+
+                </run>
+            </groups>
+
+            <classes>
+                <class name = "Basico.SimulacroExamenBasico.Prueba_booking">
+
+                </class>
+            </classes>
+        </test>
+    </suite>

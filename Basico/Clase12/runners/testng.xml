@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "Clase12" verbose="1">
+        <test name = "Ejercicio Testing">
+            <parameter name="specificTag" value="h2"/>
+            <groups>
+                <run>
+                    <include name = "successTest" />
+
+                    <include name = "failTest" />
+                </run>
+            </groups>
+
+            <classes>
+                <class name = "Basico.Clase12.EjerciciosClase.SpotifyTestNG"></class>
+                <class name = "Basico.Clase12.EjerciciosClase.EjercicioClase"></class>
+            </classes>
+        </test>
+    </suite>

@@ -1,0 +1,16 @@
+    <suite name = "Clase14" >
+        <test name = "All the Tests">
+
+            <groups>
+                <run>
+                    <include name = "fakeTest"/>
+                    <include name = "dataProviderTest"/>
+                </run>
+            </groups>
+
+            <classes>
+                <class name = "Basico.Clase14.Ejercicios.Fakers.SalesforceTest"></class>
+
+            </classes>
+        </test>
+    </suite>

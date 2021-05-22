@@ -1,0 +1,17 @@
+    <suite name = "Clase14" >
+        <test name = "All the Tests">
+            <parameter name="specificTag" value="h2"/>
+            <groups>
+                <run>
+                    <include name = "successTest" />
+
+                    <include name = "failTest" />
+                </run>
+            </groups>
+
+            <classes>
+                <class name = "Basico.Clase14.Ejercicios.DataProviders.TestngSalesforce"></class>
+
+            </classes>
+        </test>
+    </suite>

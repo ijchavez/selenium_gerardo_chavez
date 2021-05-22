@@ -1,0 +1,12 @@
+<suite name = "Clase13" verbose="1">
+    <parameter name="tag_name" value="h1"/>
+    <test name = "Ejercicio Testing">
+        <groups>
+
+        </groups>
+        <classes>
+            <class name = "Basico.Clase13.Ejercicios.ParamYRunners.TestParametrizables"/>
+
+        </classes>
+    </test>
+</suite>
